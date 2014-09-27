@@ -20,7 +20,7 @@ def ts_to_date():
 
 if __name__ == "__main__":
     result = dict()
-    log = "/var/log/httpd/usd1000.log"
+    log = "web server log"
     fp = open(log, "r")
     for line in fp:
         m = line_parse(line)
